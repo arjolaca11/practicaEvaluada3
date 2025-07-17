@@ -18,7 +18,7 @@ public class Inventario {
     private String cedulaEmpleado;
     
     public Inventario() {
-      this.nombreSuper = "Super Chino"; // [cite: 458]
+      this.nombreSuper = "Super Chino"; 
         this.codigoSuper = "001";
         this.nombreEmpleado = JOptionPane.showInputDialog("Ingrese el nombre del empleado:");
         this.cedulaEmpleado = JOptionPane.showInputDialog("Ingrese la cedula del empleado:");
